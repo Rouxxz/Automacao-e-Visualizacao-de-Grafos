@@ -11,7 +11,9 @@ def get_dist(p1, p2):
 def main():
 
     '''
-
+        A biblioteca piclke foi importada, pois o docente responsavel queria utilizar matrizes maiores de uma unica vez. 
+        As matrizes pickle vinham com uam numerção a mais, ou seja, quando era pra ser 0 era 1 e a plotagem saia de forma incorreta, para resolver isso subtrai 1 da matriz. 
+        Portanto esse código aceita matrizes com uma numeração acima também.
     '''
 
   #matriz = np.array(pickle.load(open("MATRIZ_B.pickle", "rb")))
